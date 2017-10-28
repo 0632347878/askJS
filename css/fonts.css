@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Cuprum-Bold';
+  src: url('../fonts/Cuprum/Cuprum-Bold.eot');
+  src: url('../fonts/Cuprum/Cuprum-Bold.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/Cuprum/Cuprum-Bold.woff') format('woff'),
+     url('../fonts/Cuprum/Cuprum-Bold.ttf') format('truetype'),
+     url('../fonts/Cuprum/Cuprum-Bold.svg#Cuprum') format('svg');
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Cuprum-Regular';
+  src: url('../fonts/Cuprum/Cuprum-Regular.eot');
+  src: url('../fonts/Cuprum/Cuprum-Regular.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/Cuprum/Cuprum-Regular.woff') format('woff'),
+     url('../fonts/Cuprum/Cuprum-Regular.ttf') format('truetype'),
+     url('../fonts/Cuprum/Cuprum-Regular.svg#Cuprum') format('svg');
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Politica';
+  src: url('../fonts/Politica/Politica.eot');
+  src: url('../fonts/Politica/Politica.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/Politica/Politica.woff') format('woff'),
+     url('../fonts/Politica/Politica.ttf') format('truetype'),
+     url('../fonts/Politica/Politica.svg#Cuprum') format('svg');
+  font-style: normal;
+  font-weight: normal;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+ <html>
+   <head>
+     <!--Import Google Icon Font-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!--Import materialize.css-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+     <link rel="stylesheet" href="css/fonts.css">
+     <link rel="stylesheet" href="css/reset.css">
+     <link rel="stylesheet" href="css/all.css">
+
+     <!--Let browser know website is optimized for mobile-->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+     <title>ask task</title>
+   </head>
+   <body>
+
+
+     <!-- Modal-->
+     <div id="modal" class="modal">
+       <div class="modal-content">
+         <h4>Скажите пожалуйста, Вам нравится наш сайт ?</h4>
+         <div class="img_W"><img src="img/man.png" alt=""></div>
+         <form action="#">
+           <p>
+             <input name="group1" type="radio" id="test1" />
+             <label for="test1">Да</label>
+           </p>
+           <p>
+             <input name="group1" type="radio" id="test2" />
+             <label for="test2">Нет</label>
+           </p>
+            <button onclick="checkRadio()" id="check_btn" class="waves-effect waves-green btn-flat">Отправить</button>
+         </form>
+       </div>
+     </div>
+       <div class="hidden-wrapper">
+         <div class="shadow-wrapper" id="hiddenAgree">
+            <img src="img/smiling-face.svg" alt="smiling-face">
+            <div class="answer-w">
+              <h3>Спасибо! Мы стараемся.</h3>
+              <button class="modal-action accept_btn modal-close waves-effect waves-green btn-flat">ок</button>
+            </div>
+          </div>
+          <div class="shadow-wrapper" id="hiddenDisagree">
+             <img src="img/sad-face.svg" alt="smiling-face">
+            <div class="answer-w">
+             <h3>Будем стараться лучше!</h3>
+             <button class="modal-action accept_btn modal-close waves-effect waves-red btn-flat">ок</button>
+            </div>
+           </div>
+       </div>
+
+
+
+
+     <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+     <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <!-- custom js -->
+    <script src="js/main.js" type="text/javascript"> </script>
+    <script type="text/javascript">
+
+  jQuery(function($) {
+        $(document).ready(function(){
+          $('#modal').modal();
+          $('#modal').modal('open');
+        });
+      });
+
+
+    </script>
+
+   </body>
+ </html>

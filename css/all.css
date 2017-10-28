@@ -1,0 +1,54 @@
+body {
+  font-family: 'Cuprum-Regular';
+  font-size: 16px;
+}
+.img_W {
+  display: inline-block;
+  margin-top: 10px;
+}
+.img_W img {max-width: 250px;}
+.modal-content {
+  padding: 15px !important;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 400px;
+}
+.modal-content h4 {
+  font-size: 20px ;
+  width: 100%;
+  text-align: center;
+}
+.modal-content form {
+  flex: 1 0 auto;
+  align-self: center;
+  padding-left: 50px;
+}
+.modal-content button,
+.answer-w button  {
+  border: 1px solid;
+}
+.modal-content button:active,
+.answer-w button:active {
+  border-color: transparent;
+}
+.modal-content.fade > * {
+  opacity: 0;
+  transition: .9s;
+}
+.shadow-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.shadow-wrapper h3 {
+  text-align: center;
+}
+.shadow-wrapper img {
+  max-width: 250px;
+}
+.hidden-wrapper {
+  display: none;
+}
+.answer-w {text-align: center;}
+.answer-w button {margin-top: 20px;}
