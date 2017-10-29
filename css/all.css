@@ -23,7 +23,7 @@ body {
   align-self: center;
   padding-left: 50px;
 }
-.modal-content button,
+.modal-content a,
 .answer-w button  {
   border: 1px solid;
 }

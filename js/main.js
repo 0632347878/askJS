@@ -1,5 +1,6 @@
 
 function checkRadio() {
+
   if(document.getElementById('test1').checked) {
     pasteAgree();
   }
